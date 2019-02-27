@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
             return BigInteger.ONE;
         }else {
             return number.multiply(factorial(number.subtract(BigInteger.ONE)));
+            if (number.compareTo(BigInteger.ONE) < 20) {
+                return BigInteger;
+            }
         }
     }
 }
